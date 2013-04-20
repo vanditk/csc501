@@ -1,0 +1,37 @@
+4194304 bytes real mem
+85215 bytes Xinu code
+clock enabled
+
+
+Hello World, Xinu lives
+
+main get_bs call result 200
+0x40000000: A
+0x40001000: B
+0x40002000: C
+0x40003000: D
+0x40004000: E
+0x40005000: F
+0x40006000: G
+0x40007000: H
+0x40008000: I
+0x40009000: J
+procB lives
+procB get_bs call result 200
+procB 0x60000000: A
+procB 0x60001000: B
+procB 0x60002000: C
+procB 0x60003000: D
+procB 0x60004000: E
+procB 0x60005000: F
+procB 0x60006000: G
+procB 0x60007000: H
+procB 0x60008000: I
+procB 0x60009000: J
+processVA lives
+data in virt mem of processVA = 200
+vfree return 1
+All izz well
+
+
+All user processes have completed.
